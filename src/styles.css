@@ -1,0 +1,9 @@
+body { background: #f3f5f7; color: #253342; font-family: Arial, sans-serif; }
+.brand { color: #244c70; font-size: 1.5rem; font-weight: 700; text-decoration: none; }
+.nav-link { color: #385b79; white-space: nowrap; }
+.nav-underline .nav-link.active { color: #244c70; }
+.btn-primary { --bs-btn-bg: #285b85; --bs-btn-border-color: #285b85; --bs-btn-hover-bg: #204b6e; --bs-btn-hover-border-color: #204b6e; }
+.form-label, .table { font-size: .9rem; }
+th { white-space: nowrap; }
+td { min-width: 90px; }
+footer { margin-top: 1rem; }

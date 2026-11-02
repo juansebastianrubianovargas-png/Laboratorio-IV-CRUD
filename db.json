@@ -1,0 +1,56 @@
+{
+  "productos": [
+    {
+      "id": 2,
+      "nombre": "Leche 1 L",
+      "categoria": "Lácteos",
+      "precio": 4200,
+      "existencias": 18
+    },
+    {
+      "id": 3,
+      "nombre": "Aceite 900 ml",
+      "categoria": "Despensa",
+      "precio": 8900,
+      "existencias": 12
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Ana Pérez",
+      "documento": "100000001",
+      "telefono": "3000000001",
+      "correo": "ana@example.com"
+    }
+  ],
+  "proveedores": [
+    {
+      "id": 1,
+      "nombre": "Distribuidora Central",
+      "nit": "900000001-1",
+      "telefono": "3000000002",
+      "correo": "pedidos@example.com"
+    }
+  ],
+  "compras": [
+    {
+      "id": 1,
+      "fecha": "2026-11-01",
+      "proveedor": "Distribuidora Central",
+      "producto": "Arroz 500 g",
+      "cantidad": 30,
+      "valorUnitario": 1900
+    }
+  ],
+  "ventas": [
+    {
+      "id": 1,
+      "fecha": "2026-11-02",
+      "cliente": "Ana Pérez",
+      "producto": "Leche 1 L",
+      "cantidad": 2,
+      "valorUnitario": 4200
+    }
+  ]
+}

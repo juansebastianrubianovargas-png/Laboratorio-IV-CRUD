@@ -1,0 +1,26 @@
+{
+  "name": "laboratorio-crud-negocio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "web": "vite --host 0.0.0.0",
+    "api": "node scripts/run-api.mjs",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "latest",
+    "concurrently": "^9.2.1",
+    "json-server": "0.17.4",
+    "vite": "latest"
+  },
+  "engines": { "node": ">=22.12.0" }
+}
